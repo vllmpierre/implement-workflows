@@ -3,6 +3,10 @@
 
 #include "cpu_monitor.h"
 
+/*
+ * This is the main application for monitoring CPU usage.
+ * It uses the cpu_monitor library to get the current CPU usage percentage.
+ */
 static int is_valid_usage(double usage)
 {
     if (usage < 0.0) {
